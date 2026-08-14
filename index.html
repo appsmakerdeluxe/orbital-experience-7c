@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex" />
+    <meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet,noimageindex" />
+    <meta name="theme-color" content="#03070e" />
+    <title>Private Experience</title>
+    <script type="module" crossorigin src="/assets/index.0eca8e41.js"></script>
+    <link rel="stylesheet" href="/assets/index.9ad72258.css">
+  </head>
+  <body>
+    <main id="app" aria-live="polite">
+      <canvas id="universe" aria-label="Interactive star field"></canvas>
+      <section id="gate" class="gate" aria-labelledby="gate-title">
+        <div class="gate__star" aria-hidden="true"></div>
+        <p class="eyebrow">Somewhere out there …</p>
+        <h1 id="gate-title">there is a universe only one person can open.</h1>
+        <form id="unlock-form" class="unlock-form">
+          <label for="passphrase">Enter our password</label>
+          <div class="unlock-form__row"><input id="passphrase" name="passphrase" type="password" autocomplete="current-password" required /><button type="submit">Open</button></div>
+          <p id="unlock-status" role="status"></p>
+        </form>
+      </section>
+      <section id="hud" class="hud" hidden>
+        <button id="journey" type="button">Take me through the stars</button>
+        <button id="map-toggle" type="button" aria-expanded="false" aria-controls="star-map">Star map</button>
+        <button id="wish" type="button">Make a wish</button>
+        <button id="sound" type="button" aria-pressed="false">Sound off</button>
+      </section>
+      <aside id="star-map" class="star-map" hidden aria-label="Memory locations"><h2>Star map</h2><div id="star-list"></div></aside>
+      <dialog id="memory" class="memory"><button id="close-memory" aria-label="Close memory">×</button><p id="memory-date" class="eyebrow"></p><h2 id="memory-title"></h2><blockquote id="memory-quote"></blockquote><p id="memory-body"></p></dialog>
+      <section id="ending" class="ending" hidden><p>I don’t know whether you can ever fit a person into words.</p><p>So I tried a universe instead.</p><p class="ending__signature">I’m glad you exist. <span aria-hidden="true">♥</span></p></section>
+    </main>
+    
+  </body>
+</html>
